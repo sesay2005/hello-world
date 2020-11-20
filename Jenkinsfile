@@ -5,7 +5,7 @@ pipeline {
   }
   enviroment {
     registry = "sesay2005/devops-pipline"
-    registryCredential = 'DockeruserID'
+    registryCredential = 'Docker registry credential'
   }  
   stages {
     stage('Build'){
