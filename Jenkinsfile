@@ -25,6 +25,11 @@ pipeline {
        sleep 10
       }
      }
+     stage('Maven'){
+      steps {
+       echo "war file"
+       sleep 10
+      }
   }
 
 }
