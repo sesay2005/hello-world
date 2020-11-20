@@ -3,6 +3,10 @@ pipeline {
   tools {
      maven 'M2_HOME'
   }
+  enviroment {
+    registry = "sesay2005/devops-pipline"
+    registryCredential = 'DockeruserID'
+  }  
   stages {
     stage('Build'){
       steps {
@@ -19,23 +23,12 @@ pipeline {
   }
     stage('Deploy'){
       steps {
-       echo "deploy stage"
-       sleep 10
+       echo "Build image"
+       script {
+        docker .build registry + ":$BUILD_NUMBER" 
       }
+    }
   }
-     stage('Docker'){
-      steps {
-       echo "docker image"
-       sleep 10
-      }
-     }
-     stage('Maven'){
-      steps {
-       echo "maven job"
-       sleep 10
-      }
-     }
-  }
-
 }
+     
      
