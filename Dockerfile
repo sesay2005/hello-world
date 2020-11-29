@@ -1,7 +1,7 @@
 # Pull base image 
-From tomcat:8-jre8 
+From ubuntu:18.04 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
+MAINTAINER "arunabakarr2005@gmail.com" 
 COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
 
