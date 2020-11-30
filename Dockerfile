@@ -1,5 +1,5 @@
 # Pull base image 
-From ubuntu:18.04 
+From tomcat:8-jre8 :
 
 # Maintainer 
 MAINTAINER "arunabakarr2005@gmail.com" 
