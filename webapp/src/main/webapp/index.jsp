@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to Simple DevOps Project !!   </h1>
-<h2> This is continuation fo the code !! </h2>
+<h1> Hello, Welcome to Simple sixfigure Project !!   </h1>
+<h2> This is a new code !! </h2>
