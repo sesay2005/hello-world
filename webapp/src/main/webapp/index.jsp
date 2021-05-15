@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to Simple sixfigure Project !!   </h1>
-<h2> This is my new code 012921!! </h2>
+<h1> Hello, Welcome to Simple DevOps Project !! </h1>
+<h2> I can't waite to get another job </h2>
